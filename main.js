@@ -8,7 +8,7 @@ div_formulario.className = "div_formularios";
 //lista de datos (string)
 //para crear un objeto se necesitan llaves
 let formularios = [
-    {nombre:"Login", link:"https:"},
+    {nombre:"Login", link:"componentes/Login/Login.html"},
     {nombre:"Formulario De Busqueda", link:"componentes/formularioDeBusqueda/formularioDeBusqueda.html"},
     {nombre:"Formulario De Comentarios Reseñas", link:"componentes/formularioDeCometariosReseñas/formularioDEComentariosReseñas.html"},
     {nombre:"Formulario De Contacto", link:"componentes/formularioDeContacto/formularioDeContacto.html"}, 
