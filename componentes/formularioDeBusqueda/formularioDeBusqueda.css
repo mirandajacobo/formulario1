@@ -1,0 +1,211 @@
+body {
+    background-color: rgb(240, 208, 172);
+}
+
+.Padre {
+    width: 95rem;
+    height: 46rem;
+    margin: auto;
+    margin-top: 12rem;
+
+    display: grid;
+    grid-template-columns: 5px repeat(8, 1fr) 5px 5px;
+    grid-template-rows:  1rem repeat(8, 1fr) 1rem;
+    box-sizing: border-box;
+    gap: 5px;
+}
+
+.hola1 {
+    grid-column: 5/9;
+    grid-row: 2/9;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 5px rgb(185, 185, 185);
+
+    background-color: rgb(255, 255, 255);
+}
+
+.hola2 {
+    grid-column: 2/5;
+    grid-row: 2/9;
+    background-color: rgb(148, 147, 147);
+    border-radius: 5px;
+}
+
+.ojo.hola2 img {
+    max-width: 100%; 
+    height: 37.5rem; 
+    object-fit: cover; 
+    border-radius: 5px;
+}
+
+.ojo.hola3 {
+    grid-column: 6/7;
+    grid-row: 8/9;
+    width: 100px;
+    height: 50px;
+    background-color: rgb(93, 158, 50);
+    border: 3px solid black;
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3rem;
+    margin-left: 5px;
+}
+
+.ojo.hola3:hover {
+    background-color: rgb(144, 185, 116);
+}
+
+.mi-boton {
+    padding: 2px 2px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(93, 158, 50);
+    border: none;
+    cursor: pointer;
+    border-radius: 2px;
+    font-size: 10px;
+    font-size: 1.5rem;
+}
+
+.mi-boton:hover {
+    transition: 0.2s;
+    color: black;
+    background-color: rgb(144, 185, 116);
+}
+
+.ojo.hola4 {
+    grid-column: 7/8;
+    grid-row: 8/9;
+    width: 100px;
+    height: 50px;
+    background-color: rgb(60, 170, 137);
+    border: 3px solid black;
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3rem;
+    margin-left: 5px;
+}
+
+.ojo.hola4:hover {
+    background-color: rgb(104, 187, 162);
+}
+
+.mi-botonn {
+    padding: 2px 2px;
+    color: rgb(255, 255, 255);
+    border: none;
+    background-color: rgb(60, 170, 137);
+    cursor: pointer;
+    border-radius: 2px;
+    font-size: 10px;
+    font-size: 1.5rem;
+}
+
+.mi-botonn:hover {
+    transition: 0.2s;
+    color: black;
+    background-color: rgb(109, 197, 171);
+}
+
+ #inntt .it input{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+
+    background-color: rgb(231, 228, 224);
+    margin-left: 8rem;
+    border-radius: 5px;
+    width: 30rem;
+    height: 3.7rem;
+}
+
+#inntt .it input:hover {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 3px solid black;
+    transition: 0.5s;
+    background-color: rgb(233, 222, 214);
+}
+
+.it h1 {
+    margin-left: 20rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#iho .at input{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    background-color: rgb(231, 228, 224);
+    margin-left: 8rem;
+    border-radius: 5px;
+    width: 30rem;
+    height: 3.7rem;
+}
+
+.at h1 {
+    margin-left: 15rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#iho .at input:hover {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 3px solid black;
+    transition: 0.5s;
+    background-color: rgb(233, 222, 214);
+}
+
+#iha .et input{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    background-color: rgb(231, 228, 224);
+    margin-left: 8rem;
+    border-radius: 5px;
+    width: 30rem;
+    height: 3.7rem;
+}
+
+#iha .et input:hover {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 3px solid black;
+    transition: 0.5s;
+    background-color: rgb(233, 222, 214);
+}
+
+.et h1 {
+    margin-left: 20rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#iho .ot input{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+
+    background-color: rgb(231, 228, 224);
+    margin-left: 8rem;
+    border-radius: 5px;
+    width: 30rem;
+    height: 3.7rem;
+}
+
+#iho .ot input:hover {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 3px solid black;
+    transition: 0.5s;
+    background-color: rgb(233, 222, 214);
+}
+
+.ot h1 {
+    margin-left: 22rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
